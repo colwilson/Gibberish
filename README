@@ -1,0 +1,9 @@
+from gibberish import Gibberish
+
+text = """
+Download a few hundered words of text from http://www.gutenberg.org/ebooks and paste them here
+"""
+
+g = Gibberish(text, 4)
+print g.generate_paragraph()
+
